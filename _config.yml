@@ -1,0 +1,40 @@
+
+
+
+title: "TechBytes Blog"
+description: "Exploring the world of technology and automation"
+url: "https://filsan-1.github.io/g" # The base hostname & protocol for your site
+baseurl: "/g" # The subpath of your site, e.g., /blog
+
+
+theme: jekyll-theme-cayman
+
+# Author information
+author:
+  name: "Filsan Hassan"
+  bio: "Tech enthusiast and automation aficionado"
+  avatar: "/assets/avatar.jpg" # Path to your profile picture, located in the assets folder
+  social:
+    - title: "GitHub"
+      url: "https://github.com/yourusername"
+    - title: "Twitter"
+      url: "https://twitter.com/yourusername"
+
+# Navigation menu
+# Customize the links in your navigation menu
+navbar:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Contact"
+    url: "/contact"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: ["vendor"]
+plugins:
+  - jekyll-feed
